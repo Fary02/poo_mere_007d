@@ -9,7 +9,7 @@ public class Main {
 
         Estudiante estudiante = new Estudiante("Kiwi", "Test", "kitest@example.ex", "12-345-678-9");
 
-        System.out.println("El estudiante: " + estudiante.getNombre() +  " con apellido: " + estudiante.getApellido());
+        System.out.println("El estudiante: " + estudiante.getNombre() + " con apellido: " + estudiante.getApellido());
 
          /* Pendiente integrar metodo obtenerInformacion
 

@@ -2,91 +2,91 @@ package dev.rampmaster;
 
 public abstract class Usuario implements Colaborable {
 
-  protected String nombre;
-  protected String apellido;
-  protected String correo;
-  protected String run;
+    protected String nombre;
+    protected String apellido;
+    protected String correo;
+    protected String run;
 
-  public Usuario (String nombre, String apellido, String correo, String run){
+    public Usuario(String nombre, String apellido, String correo, String run) {
 
-    this.nombre = nombre;
+        this.nombre = nombre;
 
-    this.apellido = apellido;
+        this.apellido = apellido;
 
-    this.correo = correo;
+        this.correo = correo;
 
-    this.run = run;
+        this.run = run;
 
-  }
+    }
 
-  public String getNombre() {
+    public String getNombre() {
 
-    return nombre;
+        return nombre;
 
-  }
+    }
 
-  public void setNombre(String nombre) {
+    public void setNombre(String nombre) {
 
-    this.nombre = nombre;
+        this.nombre = nombre;
 
-  }
+    }
 
-  public String getApellido() {
+    public String getApellido() {
 
-    return apellido;
+        return apellido;
 
-  }
+    }
 
-  public void setApellido(String apellido) {
+    public void setApellido(String apellido) {
 
-    this.apellido = apellido;
+        this.apellido = apellido;
 
-  }
+    }
 
-  public String getCorreo() {
+    public String getCorreo() {
 
-    return correo;
+        return correo;
 
-  }
+    }
 
-  public void setCorreo(String correo) {
+    public void setCorreo(String correo) {
 
-    this.correo = correo;
+        this.correo = correo;
 
-  }
+    }
 
-  public String getRun() {
+    public String getRun() {
 
-    return run;
+        return run;
 
-  }
+    }
 
-  public void setRun(String run) {
+    public void setRun(String run) {
 
-    this.run = run;
+        this.run = run;
 
-  }
+    }
 
-  @Override
-  public void obtenerNombreApellido(){
+    @Override
+    public void obtenerNombreApellido() {
 
-    System.out.println("El nombre y apellido de usuario es:" + getNombre() + getApellido());
+        System.out.println("El nombre y apellido de usuario es:" + getNombre() + getApellido());
 
-  }
+    }
 
-  @Override
-  public void obtenerInformacion(){
+    @Override
+    public void obtenerInformacion() {
 
-    System.out.println(("El correo y run del usuario son:" + getCorreo() + getRun()));
+        System.out.println(("El correo y run del usuario son:" + getCorreo() + getRun()));
 
-  }
+    }
 
-  @Override
+    @Override
 
-  public void usarJunaColaborador(){
+    public void usarJunaColaborador() {
 
-    System.out.println("El usuario con run:" + getRun() + "Ocupa su tarjeta junaeb");
+        System.out.println("El usuario con run:" + getRun() + "Ocupa su tarjeta junaeb");
 
-  }
+    }
 
 }

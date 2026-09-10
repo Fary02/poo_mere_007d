@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d88b976-843d-45bb-a9ea-6622e8f434b9" name="Changes" comment="Se instancia la clase estudiante, falta integrar metodo obtenerInformacion" />
+    <list default="true" id="5d88b976-843d-45bb-a9ea-6622e8f434b9" name="Changes" comment="Se reforma el codigo, para limpiar espacios  &quot;Main menu&quot;, &quot;Code, Reformat Code&quot; o &quot;Alt + Mayus + F&quot;">
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Administrativo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Administrativo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Colaborable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Colaborable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Sala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Sala.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Sede.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Sede.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Usuario.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,12 +38,12 @@
     &quot;assignee&quot;: &quot;Fary02&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Fary02/poo_mere_007d.git",
-    "accountId": "5ce0178e-19f7-4f9b-9c65-303eef25ebc6"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Fary02/poo_mere_007d.git&quot;,
+    &quot;accountId&quot;: &quot;5ce0178e-19f7-4f9b-9c65-303eef25ebc6&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6,
   &quot;fromUser&quot;: false
@@ -107,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789072143886</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Se reforma el codigo, para limpiar espacios  &quot;Main menu&quot;, &quot;Code, Reformat Code&quot; o &quot;Alt + Mayus + F&quot;">
+      <option name="closed" value="true" />
+      <created>1789072691242</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1789072691242</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se instancia la clase estudiante, falta integrar metodo obtenerInformacion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se instancia la clase estudiante, falta integrar metodo obtenerInformacion" />
+    <MESSAGE value="Se reforma el codigo, para limpiar espacios  &quot;Main menu&quot;, &quot;Code, Reformat Code&quot; o &quot;Alt + Mayus + F&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se reforma el codigo, para limpiar espacios  &quot;Main menu&quot;, &quot;Code, Reformat Code&quot; o &quot;Alt + Mayus + F&quot;" />
   </component>
 </project>

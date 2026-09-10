@@ -2,10 +2,10 @@ package dev.rampmaster;
 
 public interface Colaborable {
 
-  void usarJunaColaborador();
+    void usarJunaColaborador();
 
-  void obtenerNombreApellido();
+    void obtenerNombreApellido();
 
-  void obtenerInformacion();
+    void obtenerInformacion();
 
 }

@@ -51,9 +51,9 @@ public class Sede {
 
     }
 
-    public void obtenerPiso(){
+    public void obtenerPiso() {
 
-        System.out.println("La cantidad de pisos de la sede es de: " +  getPiso());
+        System.out.println("La cantidad de pisos de la sede es de: " + getPiso());
 
     }
 

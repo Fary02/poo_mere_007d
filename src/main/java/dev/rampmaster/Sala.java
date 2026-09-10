@@ -7,7 +7,7 @@ public class Sala {
     private String capacidad;
     private HashSet<Piso> pisos;
 
-    public Sala(String capacidad,  HashSet<Piso> pisos) {
+    public Sala(String capacidad, HashSet<Piso> pisos) {
 
         this.capacidad = capacidad;
 
@@ -37,13 +37,13 @@ public class Sala {
 
     }
 
-    public void obtenerCapacidad(){
+    public void obtenerCapacidad() {
 
-       System.out.println("La capacidad de cada sala es de : " +  getCapacidad());
+        System.out.println("La capacidad de cada sala es de : " + getCapacidad());
 
     }
 
-    public void obtenerSala(){
+    public void obtenerSala() {
 
         System.out.println("La sala con capacidad:" + getCapacidad() + "esta en el piso:" + getPisos());
 

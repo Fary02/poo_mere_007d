@@ -3,29 +3,29 @@ package dev.rampmaster;
 public class Administrativo extends Usuario implements Colaborable {
 
 
-  public Administrativo(String nombre, String apellido, String correo, String run) {
+    public Administrativo(String nombre, String apellido, String correo, String run) {
 
 
-  super(nombre, apellido, correo, run);
+        super(nombre, apellido, correo, run);
 
-  }
+    }
 
-  @Override
+    @Override
 
-  public void obtenerInformacion() {
+    public void obtenerInformacion() {
 
-  }
+    }
 
-  @Override
+    @Override
 
-  public void obtenerNombreApellido() {
+    public void obtenerNombreApellido() {
 
-  }
+    }
 
-  @Override
+    @Override
 
-  public void usarJunaColaborador() {
+    public void usarJunaColaborador() {
 
-  }
+    }
 
 }

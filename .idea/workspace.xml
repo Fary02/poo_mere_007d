@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5d88b976-843d-45bb-a9ea-6622e8f434b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Administrativo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Administrativo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Docente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Docente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Estudiante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/Fary02/poo_mere_007d.git",
-    "accountId": "2f569d3e-7183-4559-926b-2fda0e21c9a5"
+    "accountId": "5ce0178e-19f7-4f9b-9c65-303eef25ebc6"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -92,7 +90,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.33813.25" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
       </set>
     </attachedChunks>
   </component>

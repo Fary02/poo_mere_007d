@@ -11,19 +11,16 @@ public class Administrativo extends Usuario implements Colaborable {
     }
 
     @Override
-
     public void obtenerInformacion() {
 
     }
 
     @Override
-
     public void obtenerNombreApellido() {
 
     }
 
     @Override
-
     public void usarJunaColaborador() {
 
     }

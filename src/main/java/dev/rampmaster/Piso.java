@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class Piso {
 
-    private HashSet <Sala> salas;
+    private HashSet<Sala> salas;
     private int cantidad;
 
     public Piso(HashSet salas, int cantidad) {
@@ -26,6 +26,7 @@ public class Piso {
         this.salas = salas;
 
     }
+
     public int getCantidad() {
 
         return cantidad;
@@ -38,9 +39,9 @@ public class Piso {
 
     }
 
-    public void obtenerSalas(){
+    public void obtenerSalas() {
 
-        System.out.println("La cantidad de salas por piso es de : " +  getSala());
+        System.out.println("La cantidad de salas por piso es de : " + getSala());
     }
 
 }

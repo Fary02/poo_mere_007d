@@ -3,29 +3,35 @@ package dev.rampmaster;
 public class Docente extends Usuario implements Colaborable {
 
 
-  public Docente(String nombre, String apellido, String correo, String run) {
+    public Docente(String nombre, String apellido, String correo, String run) {
 
 
-    super(nombre, apellido, correo, run);
+        super(nombre, apellido, correo, run);
 
-  }
+    }
 
-  @Override
+    @Override
 
-  public void obtenerInformacion(){
+    public void obtenerInformacion() {
 
-  }
+        System.out.println("El correo y run del docente son: " + getCorreo() + " y " + getRun());
 
-  @Override
+    }
 
-  public void obtenerNombreApellido(){
+    @Override
 
-  }
+    public void obtenerNombreApellido() {
 
-  @Override
+        System.out.println("El nombre y apellido del usuario son: " + getNombre() + " y " + getApellido());
 
-  public void usarJunaColaborador(){
+    }
 
-  }
+    @Override
+
+    public void usarJunaColaborador() {
+
+        System.out.println("El docente: " + getNombre() + " con run: " + getRun() + " hace uso de su tarjeta junaeb");
+
+    }
 
 }

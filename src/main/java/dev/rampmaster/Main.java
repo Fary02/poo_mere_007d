@@ -39,9 +39,7 @@ public class Main {
 
          /* PENDIENTES
 
-          AGREGAR SISTEMA CASCADA PARA INTERACION CON SALA, PISO Y SEDE
-
-          AGREGAR SISTEMA MENU, CRUD PARA TODO
+          Corregir CRUD de infraestructura y adaptar main para hacer uso del CRUD
 
           */
     }

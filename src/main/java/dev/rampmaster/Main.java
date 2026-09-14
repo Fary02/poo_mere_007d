@@ -5,11 +5,13 @@ package dev.rampmaster;
 public class Main {
     public static void main(String[] args) {
 
-        // Se instancia la clase estudiante y docente a modo de prueba
+        // Se instancia la clase estudiante, docente y administrativo a modo de prueba
 
         Estudiante estudiante = new Estudiante("Kiwi", "Test", "kitest@example.ex", "12-345-678-9");
 
         Docente docente = new Docente("PooMaster", "Java", "PooMaster@example.pro", "12-345-678-9");
+
+        Administrativo administrativo = new Administrativo("Cristian", "Poo", "cris.poo@example.pro", "12-345-678-9");
 
         // println imprime con salto de linea
 
@@ -18,6 +20,8 @@ public class Main {
         // print imprime sin salto de linea
 
         System.out.println("El docente: " + docente.getNombre() + " con apellido: " + docente.getApellido());
+
+        System.out.println("El administrativo: " + administrativo.getNombre() + " con apellido: " + administrativo.getApellido());
 
         // Se instancian los methods de la interface
 
@@ -29,6 +33,9 @@ public class Main {
         docente.obtenerNombreApellido();
         docente.usarJunaColaborador();
 
+        administrativo.obtenerInformacion();
+        administrativo.obtenerNombreApellido();
+        administrativo.usarJunaColaborador();
 
          /* PENDIENTES
 

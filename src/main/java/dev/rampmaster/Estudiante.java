@@ -12,7 +12,7 @@ public class Estudiante extends Usuario implements Colaborable {
     @Override
     public void obtenerInformacion() {
 
-        System.out.println(("El correo y run del usuario son: " + getCorreo() + " y " + getRun()));
+        System.out.println("El correo y run del usuario son: " + getCorreo() + " y " + getRun());
 
     }
 

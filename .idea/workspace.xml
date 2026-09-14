@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d88b976-843d-45bb-a9ea-6622e8f434b9" name="Changes" comment="Se reformatea el codigo, se instancia docente y estudiante. FALTANTES: Sistema crud PARA TODO  y sistema cascada para la interaccion de sala piso y sede" />
+    <list default="true" id="5d88b976-843d-45bb-a9ea-6622e8f434b9" name="Changes" comment="Se reformatea el codigo, se instancia docente y estudiante. FALTANTES: Sistema crud PARA TODO  y sistema cascada para la interaccion de sala piso y sede">
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Administrativo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Administrativo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Estudiante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789402553589</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Se reformatea el codigo, se instancia docente y estudiante. FALTANTES: Sistema crud PARA TODO  y sistema cascada para la interaccion de sala piso y sede">
+      <option name="closed" value="true" />
+      <created>1789402627609</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1789402627609</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d88b976-843d-45bb-a9ea-6622e8f434b9" name="Changes" comment="Se terminan las clases faltantes, para dar comienzo al sistema CRUD">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5d88b976-843d-45bb-a9ea-6622e8f434b9" name="Changes" comment="Se actualizan la lista de pendientes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,6 +169,8 @@
     <MESSAGE value="Se reformatea el codigo, se instancia docente y estudiante. FALTANTES: Sistema crud PARA TODO  y sistema cascada para la interaccion de sala piso y sede" />
     <MESSAGE value="Se reformatea el codigo, se instancia docente,estudiante y administrativo. FALTANTES: Sistema crud PARA TODO  y sistema cascada para la interaccion de sala piso y sede" />
     <MESSAGE value="Se terminan las clases faltantes, para dar comienzo al sistema CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se terminan las clases faltantes, para dar comienzo al sistema CRUD" />
+    <MESSAGE value="Se crea sistema CRUD para la parte de infraestructura" />
+    <MESSAGE value="Se actualizan la lista de pendientes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se actualizan la lista de pendientes" />
   </component>
 </project>

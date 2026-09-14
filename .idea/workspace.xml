@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d88b976-843d-45bb-a9ea-6622e8f434b9" name="Changes" comment="Se reformatea el codigo, se instancia docente y estudiante. FALTANTES: Sistema crud PARA TODO  y sistema cascada para la interaccion de sala piso y sede">
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Administrativo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Administrativo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Estudiante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="5d88b976-843d-45bb-a9ea-6622e8f434b9" name="Changes" comment="Se reformatea el codigo, se instancia docente,estudiante y administrativo. FALTANTES: Sistema crud PARA TODO  y sistema cascada para la interaccion de sala piso y sede" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789402627609</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Se reformatea el codigo, se instancia docente,estudiante y administrativo. FALTANTES: Sistema crud PARA TODO  y sistema cascada para la interaccion de sala piso y sede">
+      <option name="closed" value="true" />
+      <created>1789403058364</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1789403058364</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +166,7 @@
     <MESSAGE value="Se reforma el codigo, para limpiar espacios  &quot;Main menu&quot;, &quot;Code, Reformat Code&quot; o &quot;Alt + Mayus + F&quot;" />
     <MESSAGE value="Se corrige espacios en @Overrie" />
     <MESSAGE value="Se reformatea el codigo, se instancia docente y estudiante. FALTANTES: Sistema crud PARA TODO  y sistema cascada para la interaccion de sala piso y sede" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se reformatea el codigo, se instancia docente y estudiante. FALTANTES: Sistema crud PARA TODO  y sistema cascada para la interaccion de sala piso y sede" />
+    <MESSAGE value="Se reformatea el codigo, se instancia docente,estudiante y administrativo. FALTANTES: Sistema crud PARA TODO  y sistema cascada para la interaccion de sala piso y sede" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se reformatea el codigo, se instancia docente,estudiante y administrativo. FALTANTES: Sistema crud PARA TODO  y sistema cascada para la interaccion de sala piso y sede" />
   </component>
 </project>

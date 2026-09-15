@@ -29,7 +29,7 @@ public class GestionInstitucion {
 
   public void crearPisoEnSede(String nombreSede, String numeroPiso) {
 
-    Sede sede = leerSede(nombreSede);
+    Sede sede = this.leerSede(nombreSede);
 
     if (sede != null) {
 
@@ -58,9 +58,7 @@ public class GestionInstitucion {
     }
 
     System.out.println("Sede no encontrada.");
-
     return null;
-
   }
 
   public void listarInfraestructura() {
@@ -75,8 +73,10 @@ public class GestionInstitucion {
 
       System.out.println("Sede: " + sede.getNombre());
       for (Piso piso : sede.getPisos()) {
-
-        System.out.println(" Piso: " + sala.getNumero() + "capacidad: " + sala.getCapacidad());
+        System.out.println(" Piso: " + piso.getNombre());
+        for(Sala sala: piso.getSalas()){
+          
+        }
 
       }
 

@@ -13,6 +13,8 @@ public class Main {
 
         Administrativo administrativo = new Administrativo("Cristian", "Poo", "cris.poo@example.pro", "12-345-678-9");
 
+        System.out.println(administrativo.toString());
+
         // println imprime con salto de linea
 
         System.out.println("El estudiante: " + estudiante.getNombre() + " con apellido: " + estudiante.getApellido());

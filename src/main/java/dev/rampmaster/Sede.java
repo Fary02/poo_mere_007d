@@ -8,21 +8,19 @@ public class Sede {
     private String nombre;
     private String direccion;
 
-    public Sede(HashSet pisos, String nombre, String direccion) {
-
-        this.pisos = pisos;
+    public Sede(String nombre, String direccion) {
         this.nombre = nombre;
         this.direccion = direccion;
+        this.pisos = new HashSet<>();
+    }
+
+    public HashSet<Piso> getPisos() {
+
+        return this.pisos;
 
     }
 
-    public HashSet getPiso() {
-
-        return pisos;
-
-    }
-
-    public void setPiso(HashSet pisos) {
+    public void setPisos(HashSet<Piso> pisos) {
 
         this.pisos = pisos;
     }
@@ -53,8 +51,12 @@ public class Sede {
 
     public void obtenerPiso() {
 
-        System.out.println("La cantidad de pisos de la sede es de: " + getPiso());
+        System.out.println("La cantidad de pisos de la sede es de: " + this.pisos.size());
 
+    }
+
+    public void agregarPiso(Piso piso){
+        this.pisos.add(piso);
     }
 
 }

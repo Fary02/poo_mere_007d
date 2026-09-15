@@ -3,25 +3,23 @@ package dev.rampmaster;
 import java.util.HashSet;
 
 public class Piso {
-
+    private String nombre;
     private HashSet<Sala> salas;
     private int cantidad;
 
-    public Piso(HashSet salas, int cantidad) {
-
-        this.salas = salas;
-
-        this.cantidad = cantidad;
-
+    public Piso(String nombre) {
+        this.nombre = nombre;
+        this.salas = new HashSet<>();
+        this.cantidad = 0;
     }
 
-    public HashSet getSala() {
+    public HashSet<Sala> getSalas() {
 
         return salas;
 
     }
 
-    public void setSala(HashSet salas) {
+    public void setSalas(HashSet<Sala> salas) {
 
         this.salas = salas;
 
@@ -39,9 +37,17 @@ public class Piso {
 
     }
 
+    public String getNombre(){
+        return this.nombre;
+    }
+
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    }
+
     public void obtenerSalas() {
 
-        System.out.println("La cantidad de salas por piso es de : " + getSala());
+        System.out.println("La cantidad de salas por piso es de : " + this.salas.size());
     }
 
 }

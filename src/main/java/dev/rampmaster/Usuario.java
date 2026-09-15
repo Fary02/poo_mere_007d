@@ -19,6 +19,11 @@ public abstract class Usuario implements Colaborable {
 
     }
 
+    @Override
+    public String toString(){
+        return this.getCorreo();
+    }
+
     public String getNombre() {
 
         return nombre;
